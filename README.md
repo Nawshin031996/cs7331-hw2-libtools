@@ -170,13 +170,15 @@ Run func-analyzer
   -I/opt/apps/gcc/11.2.0/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include \
   -I/usr/include \
   > func_report.txt
+
 ```
 Run strength-reducer
 ```bash
-/work/11036/nawshin03/ls6/llvm-build/bin/strength-reducer test.c -- \
+/work/11036/nawshin03/ls6/llvm-build/bin/strength-reducer example_test.c -- \
   -I/opt/apps/gcc/11.2.0/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include \
   -I/usr/include \
-  > transformed_test.c
+  > example_transformed.c
+
 ```
 # 5. Repository Contents
 ```swift
@@ -189,7 +191,7 @@ hw2-tools/
  │    └── CMakeLists.txt
  ├── example_test.c
  ├── example_func_report.txt
- ├── example_transformed.c (optional)
+ ├── example_transformed.c
  └── README.md
 ```
 # 6. Issues & Limitations
