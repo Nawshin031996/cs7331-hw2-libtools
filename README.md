@@ -166,10 +166,10 @@ gcc -print-file-name=include
 ```
 Run func-analyzer
 ```bash
-/work/11036/nawshin03/ls6/llvm-build/bin/func-analyzer test.c -- \
+/work/11036/nawshin03/ls6/llvm-build/bin/func-analyzer example_test.c -- \
   -I/opt/apps/gcc/11.2.0/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include \
   -I/usr/include \
-  > func_report.txt
+  > example_func_report.txt
 
 ```
 Run strength-reducer
