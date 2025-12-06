@@ -1,0 +1,19 @@
+Function: add_twice
+  Number of arguments:   1
+  Number of statements:  23
+  Number of loops:       1
+  Times called in file:  1
+
+Function: main
+  Number of arguments:   0
+  Number of statements:  34
+  Number of loops:       0
+  Times called in file:  0
+
+Function: printf
+  Number of arguments:   0
+  Number of statements:  0
+  Number of loops:       0
+  Times called in file:  1
+
+Total function definitions in main file: 2
