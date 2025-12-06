@@ -110,7 +110,7 @@ Output
 int c = a << 2;
 int d = a >> 1;
 ``` 
-## 3. How to Build These Tools With LLVM (What I Did on Lonestar6)
+# 3. How to Build These Tools With LLVM (What I Did on Lonestar6)
 
 To integrate the tools with LLVM:
 
@@ -157,7 +157,7 @@ The tools will appear in:
 /work/11036/nawshin03/ls6/llvm-build/bin/
 
 ```
-## 4. How to Run the Tools (Lonestar6 Instructions)
+# 4. How to Run the Tools (Lonestar6 Instructions)
 GCC include path needed for headers:
 ```bash
 gcc -print-file-name=include
@@ -178,7 +178,7 @@ Run strength-reducer
   -I/usr/include \
   > transformed_test.c
 ```
-## 5. Repository Contents
+# 5. Repository Contents
 ```swift
 hw2-tools/
  ├── func-analyzer/
@@ -192,7 +192,7 @@ hw2-tools/
  ├── example_transformed.c (optional)
  └── README.md
 ```
-## 6. Issues & Limitations
+# 6. Issues & Limitations
 ### func-analyzer
 
 - Statement counts are based on AST nodes, not visible lines, so they may seem larger.
@@ -212,7 +212,7 @@ hw2-tools/
 - Does not modify macros or template expansions.
 
 ---
-### 7. Author
+# 7. Author
 
 Nawshin Tabassum Tanny
 
