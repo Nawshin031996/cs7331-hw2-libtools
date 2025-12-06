@@ -113,7 +113,6 @@ int d = a >> 1;
 ## 3. How to Build These Tools With LLVM (What I Did on Lonestar6)
 
 To integrate the tools with LLVM:
-To integrate the tools with LLVM:
 
 ### 1. Copy each tool folder into:
 ```bash
@@ -219,5 +218,3 @@ Nawshin Tabassum Tanny
 
 Texas State University
 
-
-\
